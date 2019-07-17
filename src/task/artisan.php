@@ -58,3 +58,6 @@ task('artisan:telescope:prune', artisan('telescope:prune'));
 
 desc('Execute artisan nova:publish');
 task('artisan:nova:publish', artisan('nova:publish'));
+
+desc('Execute artisan l5-swagger:generate');
+task('artisan:l5-swagger:generate', artisan('l5-swagger:generate'));
